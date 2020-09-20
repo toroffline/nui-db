@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyD4WJaLOCgchOFGgUWqS0QnNhE-l98VbT0',
+    authDomain: 'nui-db-d1711.firebaseapp.com',
+    databaseURL: 'https://nui-db-d1711.firebaseio.com',
+    projectId: 'nui-db-d1711',
+    storageBucket: 'nui-db-d1711.appspot.com',
+    messagingSenderId: '912624593486',
+    appId: '1:912624593486:web:e820eef57d1cbac5b6b11f'
+  }
 };
 
 /*
